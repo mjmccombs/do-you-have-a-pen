@@ -29,7 +29,7 @@ app.post("/", function(req, res) {
       "https://api.telegram.org/bot1028208630:AAGgy6rVN0S75deUqxO9Xn11izcKtdH2ncc/sendMessage",
       {
         chat_id: message.chat.id,
-        text: "Hey Bro Do You Have A Pen?"
+        text: "Polo!!"
       }
     )
     .then(response => {
@@ -48,5 +48,3 @@ app.post("/", function(req, res) {
 app.listen(3000, function() {
   console.log("Telegram app listening on port 3000!");
 });
-
-console.log(Date.now());
